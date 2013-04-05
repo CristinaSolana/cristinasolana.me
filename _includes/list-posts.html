@@ -1,0 +1,10 @@
+<h2>Things I've said…</h2>
+{% for post in site.posts %}
+<section class="posts">
+	<article>
+	    <time datetime="{{ post.date }}">{{ post.date | date: "%b %e, %Y" }}</time>
+	    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+	    {{ post.content | split: '<!-- more -->' | first }}
+	</article>
+</section>
+{% endfor %}

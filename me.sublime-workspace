@@ -1,0 +1,473 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"colo",
+				"color-primary"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"port",
+				"portfolio-imgs"
+			],
+			[
+				"color",
+				"color-primary"
+			],
+			[
+				"night",
+				"nightshiftcreative"
+			],
+			[
+				"border-",
+				"border-box"
+			],
+			[
+				"box",
+				"box-sizing	box-sizing"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"file": "_site/CNAME",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Compass/build/Compass.sublime-build",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/cs/Sites/me/archive/index.html",
+		"/Users/cs/Sites/me/sass/me.scss",
+		"/Users/cs/Sites/me/_layouts/default.html",
+		"/Users/cs/Sites/me/_includes/latest-posts.html",
+		"/Users/cs/Sites/me/_posts/2013-03-19-silence.md",
+		"/Users/cs/Sites/me/_site/todo.md",
+		"/Users/cs/Sites/me/_posts/2011-05-01-sandbox-manifesto.md",
+		"/Users/cs/Sites/me/_posts/2011-04-01-get-open.md",
+		"/Users/cs/Sites/me/_config.yml",
+		"/Users/cs/Sites/me/todo.md",
+		"/Users/cs/Sites/me/_layouts/post.html",
+		"/Users/cs/Sites/me/archive.html",
+		"/Users/cs/Sites/me/index.html",
+		"/Users/cs/Sites/me/_layouts/page.html",
+		"/Users/cs/Sites/me/_includes/google-analytics.html",
+		"/Users/cs/Sites/me/_includes/scripts-deferred.html",
+		"/Users/cs/Sites/me/_includes/disqus.html",
+		"/Users/cs/Sites/me/.htaccess",
+		"/Users/cs/Sites/me/favicon.ico",
+		"/Users/cs/Sites/me/config.rb",
+		"/Users/cs/Sites/me/_site/sass/me.scss",
+		"/Users/cs/Sites/me/ss/me.scss",
+		"/Users/cs/Sites/me/_site/ss/me.css",
+		"/Users/cs/Sites/me/about/index.md",
+		"/Users/cs/Sites/seth.jekyll/_config.yml",
+		"/Users/cs/Sites/me.jekyll/_config.yml",
+		"/Users/cs/Sites/me.jekyll/config.rb",
+		"/Users/cs/Sites/seth.jekyll/_includes/latest-posts.html",
+		"/Users/cs/Sites/seth.jekyll/archive.html",
+		"/Users/cs/Sites/seth.jekyll/index.html",
+		"/Users/cs/Sites/me.jekyll/archive.html",
+		"/Users/cs/Desktop/google-fonts.html",
+		"/Users/cs/Sites/scratch/demo/sass/partials/_base.scss",
+		"/Users/cs/Sites/scratch/demo/sass/partials/typography/_typography.scss",
+		"/Users/cs/Sites/scratch/boilerplate/templates/project/htaccess",
+		"/Users/cs/Sites/scratch/boilerplate/templates/project/scratch.scss",
+		"/Users/cs/Sites/scratch/boilerplate/templates/project/partials/_grid.scss",
+		"/Users/cs/Sites/scratch/demo/sass/partials/_demo.scss",
+		"/Users/cs/Sites/choose/susy/sass/susy/_margin.scss",
+		"/Users/cs/Sites/choose/united/app/rythm/StaticResources/main.css",
+		"/Users/cs/Sites/choose/united/app/rythm/inc/r_doc-head-js.html",
+		"/Users/cs/Sites/choose/united/app/rythm/inc/r_footer-js.html",
+		"/Users/cs/Sites/choose/united/app/rythm/r_main.html",
+		"/Users/cs/Sites/choose/susy/index.html",
+		"/Users/cs/Sites/choose/susy/sass/main.scss",
+		"/Users/cs/Sites/choose/susy/config.rb",
+		"/Users/cs/Sites/scratch/demo/config.rb",
+		"/Users/cs/Sites/choose/united/app/rythm/Music/r_chart.html",
+		"/Users/cs/Sites/choose/united/app/rythm/tags/music/r_musicLatestList.html",
+		"/Users/cs/Sites/choose/united/app/rythm/tags/movie/r_movieGenreList.html",
+		"/Users/cs/Sites/choose/united/app/rythm/tags/music/r_musicTopChartsList.html",
+		"/Users/cs/Sites/choose/united/app/rythm/tags/tv/r_televisionGenreList.html",
+		"/Users/cs/Sites/choose/united/app/rythm/tags/book/r_bookGenreList.html",
+		"/Users/cs/Sites/choose/united/app/rythm/Music/r_detail-album.html",
+		"/Users/cs/Sites/choose/united/app/rythm/Music/r_detail.html",
+		"/Users/cs/Sites/choose/united/app/rythm/Movie/r_detail.html",
+		"/Users/cs/Sites/choose/united/.gitignore",
+		"/Users/cs/Sites/choose/united/server.pid",
+		"/Users/cs/Sites/choose/united/app/rythm/Music/r_genre.html",
+		"/Users/cs/Sites/choose/united/app/rythm/Music/r_index.html",
+		"/Users/cs/Sites/choose/united/app/rythm/tags/music/r_DrawMusicAlbumCovers.html",
+		"/Users/cs/Sites/choose/united/app/rythm/tags/music/r_DrawMusicTrackCovers.html",
+		"/Users/cs/Sites/choose/united/app/views/Music/chart.html",
+		"/Users/cs/Sites/choose/united/app/views/Music/index.html",
+		"/Users/cs/Sites/choose/united/app/rythm/Application/r_index.html",
+		"/Users/cs/Sites/choose/united/public/stylesheets/main.css",
+		"/Users/cs/Sites/choose/xcl/app/rythm/Book/index-eBook.html",
+		"/Users/cs/Sites/choose/xcl/scss/_variables.scss",
+		"/Users/cs/Sites/choose/xcl/app/rythm/Book/index-eBook.html.old",
+		"/Users/cs/Sites/choose/xcl/app/rythm/Movie/index.html",
+		"/Users/cs/Sites/choose/xcl/app/models/Book.java",
+		"/Users/cs/Sites/choose/xcl/app/models/BookChart.java",
+		"/Users/cs/Sites/choose/xcl/app/rythm/tags/book/DrawBookThumbsMd.tag",
+		"/Users/cs/Sites/choose/xcl/app/rythm/tags/book/DrawBookCovers.tag",
+		"/Users/cs/Sites/choose/xcl/scss/modules/_mediaelement.scss",
+		"/Users/cs/Sites/choose/xcl/scss/modules/_media.scss",
+		"/Users/cs/Sites/choose/xcl/app/rythm/Movie/list.html",
+		"/Users/cs/Sites/choose/xcl/scss/_mixins.scss",
+		"/Users/cs/Sites/choose/xcl/scss/modules/_table.scss",
+		"/Users/cs/Sites/choose/xcl/app/rythm/tags/music/DrawMusicAlbumTable.tag",
+		"/Users/cs/Sites/choose/xcl/app/rythm/tags/music/DrawMusicTrackTable.tag",
+		"/Users/cs/Desktop/responsiveTableMines.scss",
+		"/Users/cs/Sites/choose/xcl/scss/modules/_lists.scss",
+		"/Users/cs/Sites/choose/xcl/scss/modules/_navigation.scss",
+		"/Users/cs/Sites/choose/xcl/app/rythm/StaticResources/custom.js",
+		"/Users/cs/Sites/choose/xcl/app/rythm/Music/chart.html",
+		"/Users/cs/Sites/choose/xcl/app/rythm/tags/music/musicLatestList.tag",
+		"/Users/cs/Sites/choose/xcl/app/rythm/tags/music/musicTopChartsList.tag",
+		"/Users/cs/Sites/wpcom/wp-config.php",
+		"/Users/cs/Sites/choose/xcl/scss/_base.scss",
+		"/Users/cs/Sites/choose/xcl/public/javascripts/plugins/jquery.elastislide.js",
+		"/Users/cs/Sites/choose/xcl/public/javascripts/plugins/jquery.elastislide.min.js",
+		"/Users/cs/Sites/choose/site/.gitignore",
+		"/Users/cs/Sites/choose/site/system/expressionengine/config/config.php",
+		"/Users/cs/Sites/choose/site/admin.php",
+		"/Users/cs/Sites/su/source/_posts/2011-04-01-get-open.markdown",
+		"/Users/cs/Sites/su/source/_posts/2011-05-01-sandbox-manifesto.markdown",
+		"/Users/cs/Desktop/my-story.html",
+		"/Users/cs/Desktop/StumblingUp/2011-04-01-Get-Open.markdown",
+		"/Users/cs/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb",
+		"/Users/cs/Sites/papers/app/scripts/views/application-view.js",
+		"/Users/cs/Sites/summanerd/app/scripts/collections/application-collection.js",
+		"/Users/cs/Sites/scratch/boilerplate/templates/project/partials/screens/large/navigation/_menu.scss",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/private/etc/apache2/extra/httpd-languages.conf",
+		"/private/etc/apache2/httpd.conf",
+		"/Users/cristinasolana/Library/Application Support/Sublime Text 2/Packages/Compass/Syntaxes/sass.tmlanguage",
+		"/Users/cristinasolana/Library/Application Support/Sublime Text 2/Packages/Compass/Syntaxes/sass.json-tmlanguage",
+		"/Users/cristinasolana/Library/Application Support/Sublime Text 2/Packages/Installed Packages/AAAPackageDev.sublime-package",
+		"/Users/cristinasolana/.gitconfig",
+		"/Users/cristinasolana/.bash_profile",
+		"/Users/cristinasolana/.bashrc"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Users/cs/Sites/seth.jekyll",
+			"",
+			"        </figcaption>\n        <figure>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"post",
+			".mast",
+			"margin-top",
+			"margin-bottom",
+			".portfolio-",
+			".portfolio-im",
+			".content",
+			".port",
+			"border-radius",
+			"border",
+			".social",
+			"article",
+			".work",
+			"rgba",
+			"sandbox-manifesto",
+			"latest posts",
+			"latest",
+			"block",
+			"code",
+			"media grid ma",
+			"!doctype",
+			".art-wrap",
+			"/200",
+			"160/160",
+			"g/",
+			"        </figure>\n        <figcaption>",
+			"sidebar li a",
+			"sidebar a",
+			"color:",
+			"clazz",
+			"ul",
+			"class=\"span2 offset1\"",
+			"MEDIA GRID",
+			"thumb-tv",
+			"-col",
+			"thumb-movie",
+			"-col",
+			"4-col",
+			"thumb-movie",
+			"31.333",
+			"[class^=\"thumb-\"]",
+			".music-item .art-wrap",
+			".media.track",
+			"3n",
+			".art-wrap",
+			".thumb-md .art-wrap",
+			".thumb-md, .thumb-md .art-wrap",
+			".art-wrap",
+			"[class^=\"thumb-\"] .art-wrap",
+			".thumb-music.thumb-md .art-wrap, .thumb-music.thumb-md .art",
+			"200px",
+			"[class^=\"thumb-\"]",
+			"4%",
+			".span10 .media.album",
+			".art-wrap",
+			".album",
+			"115",
+			"600px",
+			"height",
+			"600",
+			".media.album",
+			"600px",
+			".album",
+			"49%",
+			"33%",
+			"li.media",
+			".media",
+			"Recently Added",
+			"Recently Added Albums",
+			"music-view",
+			"top albums",
+			"max",
+			"69",
+			"all",
+			"li.media",
+			"@media",
+			"media",
+			"media-wrap",
+			"float: lef",
+			".media",
+			"top",
+			"topBooks",
+			"topMovies",
+			"top",
+			"movie",
+			"$bookimageratio",
+			"ratio",
+			"list-table",
+			"scss",
+			"table",
+			"thumb-",
+			"cell-banner-480",
+			"cell-buttons",
+			".art",
+			"section-thumb",
+			".main",
+			"movieimageration",
+			"58",
+			"cell-buttons",
+			"min-width",
+			"thumb-",
+			"prop",
+			"carousel",
+			"highlightit",
+			"stop",
+			"localhost",
+			"sql",
+			"<?",
+			"*",
+			"patterns/",
+			"url",
+			"php5"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".content",
+			"/400",
+			"200",
+			"",
+			"book",
+			"modules/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_site/CNAME",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.aaa_package_dev":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ser",
+				"server.pid"
+			],
+			[
+				"book",
+				"app/models/Book.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 377.0,
+	"status_bar_visible": true
+}

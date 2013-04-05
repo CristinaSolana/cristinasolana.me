@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="author" content="{{ site.author.name }}">
+        <meta name="description" content="{{ page.description }}">
+        <meta name="robots" content="all">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title | strip_html }}</title>
+        <link rel="stylesheet" type="text/css" href="/ss/me.css?v1.1">
+        <script type="text/javascript" src="//use.typekit.net/uiv1omw.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <!-- <header -->
+        <div class="mast cf">
+            <header class="cf">
+                <h1>CristinaSolana</h1>
+                <nav role="navigation" class="nav-social">
+                    <a href="http://twitter.com/nightshiftc" class="icon-social-twitter" title="Follow me on Twitter"></a>
+                    <a href="http://github.com/cristinasolana" class="icon-social-github" title="Check my out my code on Github"></a>
+                </nav>
+                <nav role="navigation" class="nav-usuals">
+                     <a href="#_">Me</a>
+                    <a href="/archive" title="Read my blog posts">Things I say</a>
+                </nav>
+            </header>
+        </div>
+        <!-- header> -->
+        <!-- <banner -->
+        <section role="banner">
+            <blockquote class="quote">
+                Perfection...<br>When there is nothing left to take away.</blockquote>
+            <div class="author">- Antoine de Saint-Exupery</div>
+        </section>
+        <!-- banner> -->
+        <!-- <content -->
+        <section role="main" class="cf">
+            <section class="content">
+            <span class="icon-quote"></span>
+                {{ content }}
+            </section>
+        </section>
+        <!-- content> -->
+        <footer class="about cf">
+            <span class="icon-me"></span>
+            <h2>A Bit About Me</h2>
+            <p>I am a designer & client-side developer. I spend most of my time writing HTML/5, CSS/3 and JavaScript to integrate new and existing sites with Joomla CMS using a content-first, responsive design approach.</p>
+            <p>Currently, I'm working on a pet project named Habbla, that I hope will benefit the web community.</p>
+            <!-- <p>I'm generally pretty quiet and do most of my talking on <a href="http://twitter.com/nightshiftc">Twitter</a>. I swear once in a while, but fear not, <a href="">swearing relieves pain</a> - and I'm an artist so you know I am a tortured soul. It's probably important to note that I still have both my ears and, yes, they are still attached to my head.</p> -->
+        </footer>
+        {% include google-analytics.html %}
+    </body>
+</html>

@@ -1,0 +1,66 @@
+Header unset Pragma
+FileETag None
+Header unset ETag
+
+<IfModule mod_headers.c>
+	<filesMatch "\\.(ico|pdf|flv|jpg|jpeg|png|gif|swf)$">
+		Header set Cache-Control "max-age=25920000, public, must-revalidate"
+	</filesMatch>
+	<filesMatch "\\.(css)$">
+		Header set Cache-Control "max-age=6048000, public, must-revalidate"
+	</filesMatch>
+	<filesMatch "\\.(js)$">
+		Header set Cache-Control "max-age=2160000, private, must-revalidate"
+	</filesMatch>
+	<filesMatch "\\.(xml|txt)$">
+		Header set Cache-Control "max-age=2160000, public, must-revalidate"
+	</filesMatch>
+	<filesMatch "\\.(html|htm|php)$">
+		Header set Cache-Control "max-age=604800, must-revalidate"
+	</filesMatch>
+</IfModule>
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresDefault "access plus 1 seconds"
+	ExpiresByType text/html "access plus 1 seconds"
+	ExpiresByType image/gif "access plus 259200000 seconds"
+	ExpiresByType image/jpeg "access plus 259200000 seconds"
+	ExpiresByType image/png "access plus 259200000 seconds"
+	ExpiresByType text/css "access plus 60480000 seconds"
+	ExpiresByType text/javascript "access plus 21600000 seconds"
+	ExpiresByType application/x-javascript "access plus 21600000 seconds"
+</IfModule>
+
+# compress text, html, javascript, css, xml:
+Addtype font/otf .otf
+Addtype font/woff .woff
+Addtype font/ttf .ttf
+Addtype font/svg .svg
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE font/otf
+AddOutputFilterByType DEFLATE font/woff
+AddOutputFilterByType DEFLATE font/ttf
+AddOutputFilterByType DEFLATE font/svg
+
+
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
+
+
+# mod_rewrite in use
+# RewriteEngine On
+# RewriteBase /
+# redirect to non-www
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_URI} !(.*)/$
+# RewriteRule ^(.*)$ http://WEBSITEURL.com/$1/ [L,R=301] 

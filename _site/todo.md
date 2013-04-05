@@ -1,0 +1,5 @@
+- add latest post to footer limit: 1
+- add rss feed
+- get articles finished
+- top quotes, make pull quote from blog post
+- consolidate styles for tags, nav-usuals, post pagination

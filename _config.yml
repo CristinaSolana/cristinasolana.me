@@ -1,0 +1,29 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+auto: true
+server: true
+url: http://cristinasolana.me:4000
+permalink: /:categories/:title-:year-:month-:day
+sitename: "Minimalist Web Design and Development"
+description: "I am a designer and client-side developer. I spend most of my time writing HTML/5, CSS/3 and JavaScript to integrate new and existing sites with Joomla CMS using a content-first, responsive design approach."
+paginate: 5
+# ----------------------- #
+#         Author          #
+# ----------------------- #
+author:
+ name: Cristina Solana
+ email: cs@nightshiftcreative.com
+# ----------------------- #
+#         Social          #
+# ----------------------- #
+ disqus: cs@nightshiftcreative.com
+ github: cristinasolana
+ twitter: nightshiftc
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+markdown: kramdown #redcarpet
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
