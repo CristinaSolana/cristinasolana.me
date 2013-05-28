@@ -1,8 +1,6 @@
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
-auto: true
-server: true
 url: http://cristinasolana.me:4000
 permalink: /:categories/:title-:year-:month-:day
 sitename: "Minimalist Web Design and Development"
