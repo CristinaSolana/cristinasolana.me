@@ -3,8 +3,6 @@ layout: default-no-header
 ---
 
 <article class="post">
-    <h1>{{page.title}}</h1>
-    <time datetime="{{ page.date }}">{{ page.date | date: "%b %e, %Y" }}</time>
     {{ content }}
     <aside class="tags-wrap">
     {% for tag in page.tags %}
