@@ -4,7 +4,7 @@
 	<article>
 	    <time datetime="{{ post.date }}">{{ post.date | date: "%b %e, %Y" }}</time>
 	    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	    {{ post.content | split: '<!-- more -->' | first }}
+	    {{ post.content | split: '<!-- more -->' | first }} <a href="{{ post.url }}"> [ Read all ]</a>
 	</article>
 </section>
 {% endfor %}
