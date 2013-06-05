@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "Web Designer & Developer: HTML, CSS, SASS, JS and RWD"
+layout: default-no-header
+title: "Hi, I'm Cristina Solana, a designer and frontend developer"
 description: "Hello My Name is..."
 ---
 
