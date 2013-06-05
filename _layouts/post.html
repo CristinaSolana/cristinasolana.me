@@ -3,6 +3,15 @@ layout: default-no-header
 ---
 
 <article class="post">
+    <header>
+        <h1>{{page.title}}</h1>
+        {% if page.date %}<time datetime="{{ page.date }}">{{ page.date | date: "%b %e, %Y" }}</time>{% endif %}
+        <section class="post-details">
+            {% if page.requisites %}<span class="flag-post--requisites">Requisites: {{ page.requisites }}</span>{% endif %}
+            {% if page.difficulty %}<span class="flag-post--difficulty">Difficulty: {{ page.difficulty }}</span>{% endif %}
+            <!-- <span class="flag-post--words">Words: {{ page.content | number_of_words }} Skip to TL;DR</span> -->
+        </section>
+    </header>
     {{ content }}
     <aside class="tags-wrap">
     {% for tag in page.tags %}
