@@ -1,0 +1,79 @@
+@import "default";
+@import "syntax";
+
+/////////////////////////
+// POSTS
+/////////////////////////
+
+.posts { // for post list only
+	h1 {
+		margin-bottom: 0;
+		//font-size: 4rem;
+		a {
+			color: $color-primary;
+		}
+	}
+	p {
+		margin-bottom: 2rem;
+	}
+}
+.nav-posts {
+	margin-top: 2em;
+	border-top: 1px solid darken($color-secondary,5);
+	box-shadow: 0 1px 1px lighten($color-secondary,15);
+	a {
+		line-height: 1.5rem;
+	}
+	span {
+		width: 1.5rem;
+		height: 1rem;
+		border-radius: 2rem;
+		font-size: 1.25rem;
+		color: white
+	}
+}
+.nav-posts--prev {
+	float: left;
+	span {
+		margin-right: 0.5rem;
+	}
+}
+.nav-posts--next {
+	float: right;
+	span {
+		margin-left: 0.5rem;
+	}
+}
+
+/////////////////////////
+// POSTS: FLAGS
+/////////////////////////
+
+time,
+[class^="flag"],
+.nav-posts a {
+	margin-bottom: 0.5rem;
+	padding: 0.25rem 1rem;
+	@include border-radius(10px);
+	line-height: $base-line-height;
+}
+time,
+[class^="flag"] {
+	display: inline-block;
+	margin-right: 0.5rem;
+	background-color: lighten($color-secondary, 10);
+}
+[class^="flag"] {
+	background-color: $color-primary;
+}
+time,
+.tags-wrap {
+	margin-bottom: 1rem
+}
+.nav-posts a {
+	margin-top: 1rem;
+}
+
+.post-details {
+	margin-bottom: 2em;
+}

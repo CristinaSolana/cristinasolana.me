@@ -1,0 +1,79 @@
+@import "default";
+
+/////////////////////////
+// HOME: QUOTE
+/////////////////////////
+.author {
+	line-height: 3rem;
+	font-style: italic
+}
+
+/////////////////////////
+// MAIN
+/////////////////////////
+
+[role="main"] {
+	.home & {
+		background-color: #d5c728
+	}
+}
+
+/////////////////////////
+// HOME: PORTFOLIO IMGs
+/////////////////////////
+
+.portfolio-wrap {
+	margin-bottom: 2rem
+}
+.portfolio {
+	float: left;
+	width: 48%;
+	overflow: hidden;
+	padding-bottom: 1.25rem;
+	padding-right: 1.25rem
+}
+
+/////////////////////////
+// CONTENT: MAIN
+/////////////////////////
+
+.work article {
+	float: right
+}
+
+@media all and (min-width: 37em) {
+
+	/////////////////////////
+	// PORTFOLIO IMGs
+	/////////////////////////
+
+	.portfolio {
+		width: 24%
+	}
+
+}
+
+@media all and (min-width: 60em) {
+
+	/////////////////////////
+	// CONTENT: MAIN
+	/////////////////////////
+
+	.portfolio-wrap {
+		float: left;
+		width: 56%
+	}
+	.work article {
+		float: right;
+		width: 40%
+	}
+
+	/////////////////////////
+	// PORTFOLIO IMGs
+	/////////////////////////
+
+	.portfolio {
+		width: 48%
+	}
+
+}

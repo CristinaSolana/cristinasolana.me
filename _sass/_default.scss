@@ -1,0 +1,321 @@
+@import "compass";
+
+$color-primary: 	rgba(64,223,203,1); /* seafoam */
+$color-secondary: 	rgba(213,199,40,1); /* sunshine */
+$color-tertiary: 	rgba(20,20,20,1); /* dark grey */
+$base-line-height:	1.618;
+
+/////////////////////////
+// RESETS
+/////////////////////////
+
+* {
+	@include box-sizing(border-box);
+	margin: 0;
+	padding: 0;
+	line-height: 1
+}
+
+.cf:before, .cf:after {
+	content: " ";
+	display: table
+}
+.cf:after {
+	clear:both
+}
+
+body {
+	font-size: 20px;
+	font-family: "rooney-web", Georgia, serif;
+	font-weight: 300;
+	color: #444
+}
+
+br {
+	line-height: 0;
+}
+
+/////////////////////////
+// TYPE
+/////////////////////////
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "alternate-gothic-no-3-d", Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1
+}
+h1,h2,h3,h4,h5,h6,p,blockquote,ul,ol {
+	margin-bottom:1rem
+}
+blockquote {
+	font-family: "alternate-gothic-no-3-d", Helvetica, sans-serif;
+	font-weight: 400;
+	line-height: 1
+}
+h1,
+blockquote {
+	font-size: 4rem
+}
+blockquote {
+	line-height: 3rem;
+	color: #222;
+	text-transform: uppercase;
+	word-wrap: break-word
+}
+h1 {
+	color: $color-primary;
+	.home & {
+		color: white;
+	}
+}
+h2 {
+	font-size: 2rem
+}
+p, li { 
+	line-height: $base-line-height
+}
+ul, ol {
+	list-style-position: inside;
+}
+strong {
+	font-size: 1.2rem;
+	font-weight: 400
+}
+
+a {
+	line-height: $base-line-height;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+
+	&:hover, &:focus {
+		color: darken($color-primary, 20)
+	}
+
+	h1 & {
+		line-height: 1;
+	}
+
+	.content & {
+		color: $color-tertiary;
+	}
+
+	.nav-usuals & {
+		display: inline-block;
+		margin-top: 0.5rem;
+		padding: 0.25rem 1rem;
+		background-color: lighten($color-primary, 15);
+		@include border-radius(10px);
+		&:last-of-type {
+			margin-left: 0.5rem;
+		}
+	}
+
+	.nav-posts & {
+		background-color: $color-primary;
+	}
+
+}
+
+/////////////////////////
+// IMGs
+/////////////////////////
+
+img{ width:100% }
+
+/////////////////////////
+// ICONs
+/////////////////////////
+
+[class^="icon"]{
+	float: left;
+	width: 33px;
+	height: 32px;
+	background: url("../img/icons-sprite.png") no-repeat 0 0
+}
+[class^="icon-social"] {
+	width: 24px;
+	height: 24px
+}
+.icon-social-twitter:hover {
+	background-position: -30px 0
+}
+.icon-social-github {
+	display:inline-block;
+	width: 24px;
+	height: 24px;
+	margin-left: 0.5rem;
+	background-position: 0 -44px
+}
+.icon-social-github:hover {
+	background-position: -30px -44px
+}
+.icon-work, .icon-me {
+	margin-right: 1rem
+}
+.icon-work {
+	background-position: -60px 0
+}
+.icon-me {
+	background-position: -100px -40px
+}
+.icon-quote {
+	width: 148px;
+	height: 120px;
+	background-position: 0 -300px;
+	position: absolute;
+	left: 0;
+	.home & {
+		top: -200px;
+	}
+}
+
+/////////////////////////
+// General
+/////////////////////////
+
+[role="banner"],
+[role="main"],
+.about {
+	padding: 2rem 0
+}
+
+.mast header,
+[role="banner"] blockquote,
+[role="banner"] .author,
+.content,
+.about {
+	padding-right: 2rem;
+	padding-left: 2rem
+}
+
+/////////////////////////
+// MAST
+/////////////////////////
+
+.mast {
+	padding: 0.75rem 0;
+	background-color: #40dfcb;
+	h1 {
+		float: left;
+		margin-right: 1.5rem;
+		margin-bottom: 0;
+		font-size: 1.875rem;
+		a {
+			line-height: 1;
+		}
+	}
+}
+
+/////////////////////////
+// NAV
+/////////////////////////
+
+.nav-social {
+	height: 24px;
+	line-height: 1.875rem;
+}
+
+.nav-usuals {
+	float: left;
+	clear: both;
+}
+
+/////////////////////////
+// CONTENT: MAIN
+/////////////////////////
+
+.content {
+	position: relative;
+}
+
+@media all and (min-width: 37em) {
+
+	.nav-social {
+		display: inline-block;
+	}
+
+	/////////////////////////
+	// NAV
+	/////////////////////////
+
+	.nav-usuals {
+		float: right;
+		clear: none;
+		a {
+			margin-top: 0;
+		}
+	}
+
+}
+
+@media all and (min-width: 60em) {
+	body {
+		font-size: 18px
+	}
+
+	/////////////////////////
+	// TYPE
+	/////////////////////////
+
+	h1,blockquote {
+		font-size: 6rem
+	}
+	blockquote {
+		line-height: 4.5rem
+	}
+	.quote {
+		color: $color-secondary;
+		.home & {
+			color: inherit;
+		}
+	}
+
+	/////////////////////////
+	// GENERAL
+	/////////////////////////
+
+	[role="banner"], [role="main"], .about {
+		padding: 5rem 0
+	}
+	[role="banner"] {
+		padding-bottom: 3rem
+	}
+	.mast header, [role="banner"] blockquote,
+	[role="banner"] .author, 
+	.content,
+	.about {
+		max-width: 1152px;
+		margin: 0 auto
+	}
+	[role="banner"] blockquote,
+	[role="banner"] .author, 
+	.content,
+	.about {
+		padding-right: 6rem;
+		padding-left: 18rem
+	}
+	.content {
+		padding-right: 0;
+	}
+
+	/////////////////////////
+	// MAST
+	/////////////////////////
+
+	.mast header {
+		padding-left: 0;
+	}
+
+	/////////////////////////
+	// ICONs
+	/////////////////////////
+
+	.icon-work, .icon-me {
+		margin-left: -4rem
+	}
+	.icon-quote {
+		background-position: 0 -88px
+	}
+}
