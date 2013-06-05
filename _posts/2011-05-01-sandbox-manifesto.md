@@ -3,7 +3,7 @@ layout: post
 title: "The Sandbox Manifesto"
 description: "My personal open source manifesto."
 date: 2011-05-01 8:10
-comments: true
+comments: false
 categories: blog
 tags: [open source, collaboration, manifesto]
 ---
