@@ -3,3 +3,4 @@
 - get articles finished
 - top quotes, make pull quote from blog post
 - consolidate styles for tags, nav-usuals, post pagination
+- move cf out of markup to mixin/extend

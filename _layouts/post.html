@@ -14,9 +14,9 @@ layout: default-no-header
     </header>
     {{ content }}
     <aside class="tags-wrap">
-    {% for tag in page.tags %}
-        <a href="/tags/{{ tag }}" title="{{ tag }}" class="flag-tag">{{ tag }}</a>
-    {% endfor %}
+<!--     {% for tag in page.tags %}
+        <span title="{{ tag }}" class="flag-tag">{{ tag }}</span>
+    {% endfor %} -->
     </aside>
     {% include disqus.html %}
 </article>

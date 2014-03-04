@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="author" content="{{ site.author.name }}">
-        <meta name="description" content="{{ page.description }}">
+        <meta name="author" content="Cristina Solana">
+        <meta name="description" content="Justifying my lacking of writing for the past year">
         <meta name="robots" content="all">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ page.title | strip_html }}</title>
-        <link rel="stylesheet" type="text/css" href="/ss/home.css">
+        <title>Extended Silence</title>
+        <link rel="stylesheet" type="text/css" href="/ss/posts.css">
         <script type="text/javascript" src="//use.typekit.net/uiv1omw.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <!--[if lt IE 9]>
@@ -16,7 +16,7 @@
         <![endif]-->
     </head>
 
-    <body {% if page.categories %}class="{{ page.categories }}"{% endif %}>
+    <body class="blog">
         <!-- <header -->
         <div class="mast cf">
             <header class="cf">
@@ -32,18 +32,40 @@
             </header>
         </div>
         <!-- header> -->
-        <!-- <banner -->
-        <section role="banner">
-            <blockquote class="quote">
-                Perfection...<br>When there is nothing left to take away.</blockquote>
-            <div class="author">- Antoine de Saint-Exupery</div>
-        </section>
-        <!-- banner> -->
         <!-- <content -->
         <section role="main" class="cf">
             <section class="content">
             <span class="icon-quote"></span>
-                {{ content }}
+                <article class="post">
+    <header>
+        <h1>Extended Silence</h1>
+        <time datetime="2014-03-01 22:37:00 -0500">Mar  1, 2014</time>
+        <section class="post-details">
+            
+            
+            <!-- <span class="flag-post--words">Words: 29 Skip to TL;DR</span> -->
+        </section>
+    </header>
+    <p>I know, the last time I published an article was in 2011. I promised the same thing last year. This year going to make it happen. :)<!-- more --></p>
+
+    <aside class="tags-wrap">
+<!--     
+        <span title="blogging" class="flag-tag">blogging</span>
+     -->
+    </aside>
+    
+
+</article>
+
+<section>
+	<nav class="nav-posts">
+        
+            <a href="/blog/sandbox-manifesto-2011-05-01" title="The Sandbox Manifesto" class="nav-posts--prev"><span>&lt;</span> The Sandbox Manifesto</a>
+        
+        
+	</nav>
+</section>
+
             </section>
         </section>
         <!-- content> -->
@@ -54,6 +76,19 @@
             <p>Currently, I'm working on a pet project named Habbla, that I hope will benefit the web community.</p>
             <!-- <p>I'm generally pretty quiet and do most of my talking on <a href="http://twitter.com/nightshiftc">Twitter</a>. I swear once in a while, but fear not, <a href="">swearing relieves pain</a> - and I'm an artist so you know I am a tortured soul. It's probably important to note that I still have both my ears and, yes, they are still attached to my head.</p> -->
         </footer>
-        {% include google-analytics.html %}
+        <script src="/js/prism.js"></script>
+        <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39398830-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
     </body>
 </html>
